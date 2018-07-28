@@ -44,6 +44,12 @@ export const defaultBoilerplates: Boilerplate[] = [
       'https://github.com/graphql-boilerplates/typescript-graphql-server/tree/master/advanced',
   },
   {
+    name: 'typescript-merged-schema',
+    description: 'GraphQL server typed',
+    repo:
+      'https://github.com/tomyitav/graphql-server-typed',
+  },
+  {
     name: 'react-fullstack-minimal',
     description: '"Hello World" fullstack app with React & GraphQL',
     repo:

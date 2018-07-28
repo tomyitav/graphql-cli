@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "build": "rm -rf dist && tsc -d",
+    "build": "rimraf dist && tsc -d",
     "pretest": "npm run build && npm run lint",
     "test": "ava --serial",
     "prepack": "npm run build",
